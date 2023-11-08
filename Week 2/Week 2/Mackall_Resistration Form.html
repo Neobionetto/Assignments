@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+        <p>First Name:*
+            <input type="text" name="first_name">
+        </p>
+        <p>Last Name:*
+            <input type="text" name="last_name">
+        </p>
+        <p>Email Address:*
+            <input type="text" name="email">
+        </p>
+        <p>Password:*
+            <input type="password" name="password">
+        </p>
+        <p>Confirm Password:*
+            <input type="password" name="password_confirm">
+        </p>
+        <p>Birthday:*
+            <input type="date" name="dob">
+        </p>
+        <p>
+            <h3>Gender Identity</h3>
+            <div>
+                <input type="radio" name="Gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" value="male" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" value="male" id="NB">
+                <label for="NB">Non-binary</label>
+                <input type="radio" name="Gender" value="male" id="ipnta">
+                <label for="ipnta">I prefer not to answer</label>
+            </div>
+        </p>
+        <p>A short description about myself:
+            <div>
+            <textarea name="comment" cols="25" rows="10"></textarea>
+            </div>
+        </p>
+        <p>Favorite language:
+            <select name="language">
+                <option value="Javascript">Javascript</option>
+                <option value="CSS">CSS</option>
+                <option value="C#">C#</option>
+                <option value="PPCL">PPCL</option>
+            </select>
+        </p>
+        <div>
+            <input type="checkbox" name="email-updates" id="email-updates" checked>
+            <label for ="email-updates">Yes, I would like to recieve periodic emails updates</label>
+        </div>
+        <input type="submit" valve="Create Account">
+        <p>* indicates a required field</p>
+    </form>
+    </body>
+</html>

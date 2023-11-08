@@ -1,0 +1,22 @@
+.row 
+{
+    display: flex;
+}
+
+.col, .col-2, .col-3   /* REMEMBER THIS CLASSES EFFECTS THE OTHERS. ALL PLACED HERE ARE FORMATED IN THIS WAY */
+{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(19, 122, 126);
+    flex: 1;
+}
+
+.col-2 
+{
+    flex: 5;
+}
+
+.col-3 
+{
+    flex: 3;
+}

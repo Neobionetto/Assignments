@@ -1,0 +1,72 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to apply to body */
+
+body 
+{
+    background-color: lightskyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 100%;
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;  /* This is the font size within the the card */
+    overflow: hidden;  /* OVERFLOW HIDDEN REMOVES THE CUT OFF OF THE CARDS. IF PLACED ON VISABLE IT'S GOING TO SHOW */
+}
+
+.card-header 
+{
+    background-color: lightblue;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body 
+{
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p 
+{
+    margin: 20px 0px;
+}
+
+.avatar-m /* THIS MOVES THE ICON TO IT'S CORRECT POSSISION. */
+{
+    border-radius: 75%;       /* REMEMBER BORDER-RADIUS 'ROUNDS OBJECTS*/
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s 
+{
+    height: 20px;
+}
+
+a 
+{
+    color: blue;
+}
